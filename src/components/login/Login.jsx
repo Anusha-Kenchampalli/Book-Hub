@@ -45,7 +45,7 @@ const Login=()=> {
     }
   }
   
-  if (Cookies.get()!=undefined){
+  if (Cookies.get("jwtToken")!=undefined){
     <Navigate to="/" replace/>  
   }
 
